@@ -1,0 +1,75 @@
+header {
+  text-align: center;
+  background-color: yellow;
+  color: #9e350a;
+}
+
+
+.navbar-inverse {
+  background-color: white;
+}
+
+.navegador {
+  color:#9e350a;
+}
+
+body {
+  
+  background: #d83b08;
+  color: #ded43c;
+}
+
+.home {
+  text-align: center;
+}
+
+.mododeJuego {
+  text-align: center;
+
+}
+.resultadoPartida {
+  text-align: center;
+}
+
+.tituloResultado {
+  text-decoration: underline;
+}
+
+
+.cantidadPartidas{
+    font-size: 15px;
+}
+
+.colorLetra {
+  color: #9e350a;
+}
+
+
+table {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  background-color: #949c13;
+}
+
+thead {
+  background-color: #9e9c9c;
+}
+
+td {
+  border: solid 2px;
+  border-color: white;
+  padding: 3px;
+  
+}
+
+.pptls, .pptls2 {
+}
+
+.piedra, .papel, .tijera, .lagarto, .spock {
+  font-size: 30px;
+}
+
+label {
+  cursor: pointer;
+}

@@ -1,0 +1,165 @@
+<div class="row">
+
+  <div class="mododeJuego col-md-8 col-md-offset-2">
+
+
+    <p>El modo torneo es para jugar a una serie de partidas a eleccion (3, 5 o 10).</p>
+    <p>El modo Stuartmode es para jugar contra un compañero.</p>
+    <p>Tambien se puede jugar un torneo contra un compañero.</p>
+
+    <label class="estilosdeJuego" for="#tournement">Tournement</label>
+
+    <input type="checkbox" name="torneo" value="tipodejuego" id="tournement">
+
+      <select class="cantidadPartidas colorLetra" name="partidas">
+        <option>3</option>
+        <option>5</option>
+        <option>10</option>
+      </select>
+
+
+
+
+    <label class="estilosdeJuego" for="#stuartmode">Stuartmode</label>
+    <input type="checkbox" name="stuart" value="tipodejuego" id="stuartmode">
+
+
+
+  </div>
+
+</div>
+
+
+
+
+<div class="row">
+
+
+  <div class="eleccionUsuario col-md-3 col-md-offset-1">
+
+    <h2>Eleccion de jugador 1</h2> <br>
+
+
+
+
+    <input id="piedra" type="radio" name="pptls" value="piedra" class="pptls">
+    <label class="piedra" for="#piedra">Piedra</label>
+
+    <input id="papel" type="radio" name="pptls" value="papel" class="pptls">
+    <label class="papel" for="#papel">Papel</label>
+
+    <input id="tijera" type="radio" name="pptls" value="tijera" class="pptls">
+    <label class="tijera" for="#tijera">Tijera</label>
+
+    <input id="lagarto" type="radio" name="pptls" value="lagarto" class="pptls">
+    <label class="lagarto" for="#lagarto">Lagarto</label>
+
+    <input id="spock" type="radio" name="pptls" value="spock" class="pptls">
+    <label class="spock" for="#spock">Spock</label>
+
+
+
+
+    <p>Credito disponible: <span class="credj1">100</span></p>
+
+  </div>
+
+  <div class="resultadoPartida col-md-4 ">
+
+
+
+    <button type="button" name="button" class="jugar"><span class="colorLetra">JUGAR</span></button>
+
+    <h2><span class="tituloResultado">Resultado de la partida</span></h2>
+    <div class="alert alert-success victoria" role="alert">
+
+      <h2>¡¡GANASTE!!</h2>
+
+
+    </div>
+
+    <div class="alert alert-success victoriaj1" role="alert">
+
+      <h2>¡¡GANO JUGADOR 1!!</h2>
+
+
+    </div>
+
+    <div class="alert alert-success victoriaj2" role="alert">
+
+      <h2>¡¡GANO JUGADOR 2!!</h2>
+
+
+    </div>
+
+    <div class="alert alert-danger derrota" role="alert">
+
+      <h2>¡¡PERDISTE!!</h2>
+
+    </div>
+
+  </div>
+
+
+  <div class="eleccionU-P col-md-3 ">
+
+    <h2>Eleccion de jugador 2/PC</h2>
+
+    <input id="piedra2" type="radio" name="pptls2" value="1" class="pptls2" disabled>
+    <label class="piedra" for="#piedra2">Piedra</label>
+
+    <input id="papel2" type="radio" name="pptls2" value="2" class="pptls2" disabled>
+    <label class="papel" for="#papel2">Papel</label>
+
+    <input id="tijera2" type="radio" name="pptls2" value="3" class="pptls2" disabled>
+    <label class="tijera" for="#tijera2">Tijera</label>
+
+    <input id="lagarto2" type="radio" name="pptls2" value="4" class="pptls2" disabled>
+    <label class="lagarto" for="#lagarto2">Lagarto</label>
+
+    <input id="spock2" type="radio" name="pptls2" value="5" class="pptls2" disabled>
+    <label class="spock" for="#spock2">Spock</label>
+
+
+
+    <p class="j2">Credito disponible: <span class="credj2">100</span></p>
+
+
+
+    <p hidden="true">Credito disponible</p>
+
+
+  </div>
+</div>
+
+
+<div class="row ">
+
+  <div class="resultado col-md-4 col-md-offset-4">
+
+    <table>
+      <thead>
+        <td colspan="2">Jugador 1</td>
+        <td colspan="2">Jugador 2</td>
+
+      </thead>
+      <tbody>
+        <tr>
+          <td>Partidas Ganadas</td>
+          <td>Partidas Perdidas</td>
+          <td>Partidas Ganadas</td>
+          <td>Partidas Perdidas</td>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+</div>
